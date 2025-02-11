@@ -8,11 +8,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatTableModule } from '@angular/material/table';
 import { HomeComponent } from './components/home/home.component';
 import { provideHttpClient } from '@angular/common/http';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,        
-    HomeComponent
+    HomeComponent, HeaderComponent, FooterComponent
   ],
   imports: [
     BrowserModule,
