@@ -6,10 +6,10 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { CategoryService } from 'src/app/services/category.service';
 
 @Component({
-  selector: 'app-category-form',
-  standalone: true,
+  selector: 'app-category-form',  
   templateUrl: './category-form.component.html',
   styleUrls: ['./category-form.component.scss'],
+  standalone: true,
   imports: [FormsModule, MatInputModule, MatButtonModule],
 })
 export class CategoryFormComponent {
